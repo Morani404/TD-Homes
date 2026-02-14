@@ -43,10 +43,13 @@ const Header = () => {
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection('hero')}
-              className="text-2xl font-bold tracking-tight"
-              style={{ color: '#8C4137' }}
+              className="flex items-center focus:outline-none"
             >
-              TD Homes
+              <img 
+                src="/td-homes-logo.png" 
+                alt="TD Homes - Gérer & Valoriser" 
+                className="h-16 w-auto object-contain"
+              />
             </button>
           </div>
 
