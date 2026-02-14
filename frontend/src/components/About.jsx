@@ -18,8 +18,8 @@ const About = () => {
               {aboutData.description}
             </p>
 
-            {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-6">
+            {/* Stats Grid - Hidden for now, will be used later */}
+            {/* <div className="grid grid-cols-2 gap-6">
               {aboutData.stats.map((stat, index) => (
                 <div
                   key={index}
@@ -34,7 +34,7 @@ const About = () => {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Image */}

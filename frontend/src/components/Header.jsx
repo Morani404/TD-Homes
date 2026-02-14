@@ -26,7 +26,7 @@ const Header = () => {
     { label: 'Accueil', id: 'hero' },
     { label: 'Services', id: 'services' },
     { label: 'À propos', id: 'about' },
-    { label: 'Témoignages', id: 'testimonials' },
+    // { label: 'Témoignages', id: 'testimonials' },
     { label: 'FAQ', id: 'faq' },
     { label: 'Contact', id: 'contact' }
   ];
@@ -44,19 +44,19 @@ const Header = () => {
             <button
               onClick={() => scrollToSection('hero')}
               className="text-2xl font-bold tracking-tight"
-              style={{ color: '#2E5238' }}
+              style={{ color: '#8C4137' }}
             >
               TD Homes
             </button>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-sm font-medium transition-colors hover:text-[#2E5238]"
+                className="text-base font-medium transition-colors hover:text-[#8C4137] px-2"
                 style={{ color: isScrolled ? '#2E5238' : '#ffffff' }}
               >
                 {link.label}
