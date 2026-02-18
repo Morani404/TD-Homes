@@ -13,7 +13,7 @@ export const servicesData = [
     id: 1,
     title: "Hôtels",
     icon: "Building2",
-    image: "https://images.pexels.com/photos/13722872/pexels-photo-13722872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwyfHxob3RlbCUyMGJlZHJvb20lMjB3aGl0ZSUyMHNoZWV0cyUyMGVsZWdhbnR8ZW58MHx8fHwxNzcxNDM0NjQyfDA&ixlib=rb-4.1.0&q=85",
     description: "Optimisez votre présence en ligne et maximisez vos réservations",
     features: [
       "Gestion complète des canaux de distribution (OTA)",
@@ -28,7 +28,7 @@ export const servicesData = [
     id: 2,
     title: "Conciergeries",
     icon: "Hotel",
-    image: "https://images.pexels.com/photos/8276364/pexels-photo-8276364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://images.unsplash.com/photo-1752159684779-0639174cdfac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtZWV0aW5nJTIwaGFuZHNoYWtlJTIwc3RhbmRpbmclMjBmdWxsJTIwbGVuZ3RofGVufDB8fHx8MTc3MTQzNDY0OXww&ixlib=rb-4.1.0&q=85",
     description: "Développez votre portefeuille et augmentez votre rentabilité",
     features: [
       "Distribution multi-canal de votre catalogue",
@@ -43,7 +43,7 @@ export const servicesData = [
     id: 3,
     title: "Particuliers",
     icon: "Home",
-    image: "https://images.unsplash.com/photo-1737807478491-6e258b44bd04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMGludGVyaW9yfGVufDB8fHx8MTc3MTA2MjAzMnww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.pexels.com/photos/31938034/pexels-photo-31938034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     description: "Maximisez les revenus de votre bien sans contraintes",
     features: [
       "Option 1 - Gestion digitale complète de votre bien",
@@ -148,7 +148,7 @@ export const aboutData = {
   title: "À propos de TD Homes",
   subtitle: "Votre partenaire de confiance pour la gestion de votre patrimoine immobilier",
   description: "TD Homes fait le pont entre l'hôtellerie traditionnelle et la puissance des outils digitaux. Notre mission est de libérer les propriétaires des contraintes opérationnelles tout en maximisant leur rendement grâce à une stratégie de Revenue Management sur-mesure.",
-  image: "https://images.unsplash.com/photo-1763238638501-26e12ba0fc74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHw0fHxjb2FzdGFsJTIwdmlld3xlbnwwfHx8fDE3NzEwNjIwMzd8MA&ixlib=rb-4.1.0&q=85",
+  image: "https://images.pexels.com/photos/33198971/pexels-photo-33198971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   stats: [
     { value: "500+", label: "Propriétés gérées" },
     { value: "95%", label: "Taux de satisfaction" },
