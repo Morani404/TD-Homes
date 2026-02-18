@@ -118,21 +118,16 @@ export const faqData = [
   },
   {
     id: 2,
-    question: "Comment fonctionne votre stratégie de pricing dynamique ?",
-    answer: "Notre algorithme de Revenue Management analyse en temps réel la demande, les événements locaux, la saisonnalité et la concurrence pour ajuster automatiquement vos tarifs et maximiser vos revenus."
-  },
-  {
-    id: 3,
     question: "Quel est le délai pour voir des résultats ?",
     answer: "Les premiers résultats sont généralement visibles dès le premier mois avec une optimisation de votre visibilité. L'amélioration significative des performances intervient généralement sous 2-3 mois."
   },
   {
-    id: 4,
+    id: 3,
     question: "Proposez-vous un accompagnement personnalisé ?",
     answer: "Absolument. Chaque client bénéficie d'un accompagnement sur-mesure adapté à ses objectifs et à la typologie de ses biens. Nous croyons en une approche personnalisée."
   },
   {
-    id: 5,
+    id: 4,
     question: "Comment assurez-vous la transparence de votre gestion ?",
     answer: "Vous avez accès à un tableau de bord détaillé en temps réel et recevez des rapports réguliers sur les performances de vos biens (réservations, revenus, taux d'occupation, avis clients)."
   }
@@ -148,7 +143,7 @@ export const aboutData = {
   title: "À propos de TD Homes",
   subtitle: "Votre partenaire de confiance pour la gestion de votre patrimoine immobilier",
   description: "TD Homes fait le pont entre l'hôtellerie traditionnelle et la puissance des outils digitaux. Notre mission est de libérer les propriétaires des contraintes opérationnelles tout en maximisant leur rendement grâce à une stratégie de Revenue Management sur-mesure.",
-  image: "https://images.pexels.com/photos/33198971/pexels-photo-33198971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  image: "/about-td-homes.png",
   stats: [
     { value: "500+", label: "Propriétés gérées" },
     { value: "95%", label: "Taux de satisfaction" },
