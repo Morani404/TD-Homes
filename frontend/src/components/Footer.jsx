@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 import { contactInfo } from '../data/mock';
 
 const Footer = () => {
@@ -37,10 +37,6 @@ const Footer = () => {
                 <Phone size={18} />
                 <span className="text-sm">{contactInfo.phone}</span>
               </a>
-              <div className="flex items-center gap-2 text-[#F0EAD6]">
-                <MapPin size={18} />
-                <span className="text-sm">{contactInfo.address}</span>
-              </div>
             </div>
           </div>
 
