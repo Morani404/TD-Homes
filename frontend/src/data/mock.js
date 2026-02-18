@@ -5,7 +5,7 @@ export const heroData = {
   subtitle: "Accompagnement haut de gamme dédié à la performance locative de vos hébergements touristiques",
   cta: "Demander un devis",
   ctaSecondary: "Découvrir nos services",
-  image: "https://images.unsplash.com/photo-1663659510972-40b5c18317fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMGludGVyaW9yfGVufDB8fHx8MTc3MTA2MjAzMnww&ixlib=rb-4.1.0&q=85"
+  image: "https://images.pexels.com/photos/210604/pexels-photo-210604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 };
 
 export const servicesData = [
@@ -13,7 +13,7 @@ export const servicesData = [
     id: 1,
     title: "Hôtels",
     icon: "Building2",
-    image: "https://images.unsplash.com/photo-1723465302725-ff46b3e165f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMGludGVyaW9yfGVufDB8fHx8MTc3MTA2MjAzMnww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.pexels.com/photos/13722872/pexels-photo-13722872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     description: "Optimisez votre présence en ligne et maximisez vos réservations",
     features: [
       "Gestion complète des canaux de distribution (OTA)",
@@ -28,7 +28,7 @@ export const servicesData = [
     id: 2,
     title: "Conciergeries",
     icon: "Hotel",
-    image: "https://images.unsplash.com/photo-1761208986871-6d48a954f14a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwzfHxjb2FzdGFsJTIwdmlld3xlbnwwfHx8fDE3NzEwNjIwMzd8MA&ixlib=rb-4.1.0&q=85",
+    image: "https://images.pexels.com/photos/8276364/pexels-photo-8276364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     description: "Développez votre portefeuille et augmentez votre rentabilité",
     features: [
       "Distribution multi-canal de votre catalogue",
