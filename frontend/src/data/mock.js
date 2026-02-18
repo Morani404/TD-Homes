@@ -142,7 +142,7 @@ export const contactInfo = {
 export const aboutData = {
   title: "À propos de TD Homes",
   subtitle: "Votre partenaire de confiance pour la gestion de votre patrimoine immobilier",
-  description: "TD Homes fait le pont entre l'hôtellerie traditionnelle et la puissance des outils digitaux. Notre mission est de libérer les propriétaires des contraintes opérationnelles tout en maximisant leur rendement grâce à une stratégie de Revenue Management sur-mesure.",
+  description: "TD Homes crée le lien entre la gestion locative traditionnelle et la puissance des outils digitaux. Nous déchargeons les propriétaires des contraintes opérationnelles liées à la commercialisation en ligne afin qu'ils puissent se concentrer sur l'essentiel : développer leur activité, soigner l'expérience sur place et faire croître leur parc immobilier.",
   image: "/about-td-homes.png",
   stats: [
     { value: "500+", label: "Propriétés gérées" },
