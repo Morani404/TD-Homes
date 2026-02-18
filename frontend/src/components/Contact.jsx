@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, Send } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -92,16 +92,6 @@ const Contact = () => {
                   <a href={`tel:${contactInfo.phone}`} className="text-gray-700 hover:text-[#8C4137] transition-colors">
                     {contactInfo.phone}
                   </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-[#8C4137] p-3 rounded-lg flex-shrink-0">
-                  <MapPin className="text-white" size={24} />
-                </div>
-                <div>
-                  <div className="font-semibold text-[#2E5238] mb-1">Adresse</div>
-                  <p className="text-gray-700">{contactInfo.address}</p>
                 </div>
               </div>
             </div>
