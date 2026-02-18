@@ -28,7 +28,7 @@ export const servicesData = [
     id: 2,
     title: "Conciergeries",
     icon: "Hotel",
-    image: "https://images.unsplash.com/photo-1752159684779-0639174cdfac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtZWV0aW5nJTIwaGFuZHNoYWtlJTIwc3RhbmRpbmclMjBmdWxsJTIwbGVuZ3RofGVufDB8fHx8MTc3MTQzNDY0OXww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1695045752285-ba5391984f86?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHx0d28lMjBwZW9wbGUlMjBoYW5kc2hha2UlMjBncmVldGluZyUyMGhvbWUlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NzE0MzQ4MjR8MA&ixlib=rb-4.1.0&q=85",
     description: "Développez votre portefeuille et augmentez votre rentabilité",
     features: [
       "Distribution multi-canal de votre catalogue",
@@ -43,7 +43,7 @@ export const servicesData = [
     id: 3,
     title: "Particuliers",
     icon: "Home",
-    image: "https://images.pexels.com/photos/31938034/pexels-photo-31938034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    image: "https://images.unsplash.com/photo-1764785205596-e7f6da973483?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHdvbWFuJTIwcmVsYXhpbmclMjBob21lJTIwc29mYSUyMHNtaWxpbmclMjBmYWNlfGVufDB8fHx8MTc3MTQzNDgwOHww&ixlib=rb-4.1.0&q=85",
     description: "Maximisez les revenus de votre bien sans contraintes",
     features: [
       "Option 1 - Gestion digitale complète de votre bien",
