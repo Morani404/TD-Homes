@@ -134,8 +134,8 @@ export const faqData = [
 ];
 
 export const contactInfo = {
-  email: "contact@tdhomes.fr",
-  phone: "+33 1 23 45 67 89",
+  email: "contact@td-homes.com",
+  phone: "+33 7 49 19 80 76",
   address: "Paris, France"
 };
 

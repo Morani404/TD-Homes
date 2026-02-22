@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-white/10 backdrop-blur-sm'
+        isScrolled ? 'bg-white shadow-md' : 'bg-white/95 backdrop-blur-md'
       }`}
     >
       <div className="container mx-auto px-4 lg:px-8">
@@ -46,7 +46,7 @@ const Header = () => {
               className="flex items-center focus:outline-none"
             >
               <img 
-                src="/td-homes-logo.png" 
+                src="/td-homes-logo-new.png" 
                 alt="TD Homes - Gérer & Valoriser" 
                 className="h-16 w-auto object-contain"
               />
@@ -59,8 +59,7 @@ const Header = () => {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-base font-medium transition-colors hover:text-[#8C4137] px-2"
-                style={{ color: isScrolled ? '#2E5238' : '#ffffff' }}
+                className="text-base font-medium transition-colors hover:text-[#8C4137] px-2 text-[#2E5238]"
               >
                 {link.label}
               </button>
