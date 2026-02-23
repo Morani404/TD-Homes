@@ -46,7 +46,7 @@ const Header = () => {
               className="flex items-center focus:outline-none"
             >
               <img 
-                src="/td-homes-logo-new.png" 
+                src="./td-homes-logo-new.png" 
                 alt="TD Homes - Gérer & Valoriser" 
                 className="h-16 w-auto object-contain"
               />
