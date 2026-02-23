@@ -43,7 +43,7 @@ export const servicesData = [
     id: 3,
     title: "Particuliers",
     icon: "Home",
-    image: "/particulier-femme.webp",
+    image: "./particulier-femme.webp",
     description: "Maximisez les revenus de votre bien sans contraintes",
     features: [
       "Option 1 - Gestion digitale complète de votre bien",
@@ -143,7 +143,7 @@ export const aboutData = {
   title: "À propos de TD Homes",
   subtitle: "Votre partenaire de confiance pour la gestion de votre patrimoine immobilier",
   description: "TD Homes crée le lien entre la gestion locative traditionnelle et la puissance des outils digitaux. Nous déchargeons les propriétaires des contraintes opérationnelles liées à la commercialisation en ligne afin qu'ils puissent se concentrer sur l'essentiel : développer leur activité, soigner l'expérience sur place et faire croître leur parc immobilier.",
-  image: "/about-td-homes.png",
+  image: "./about-td-homes.png",
   stats: [
     { value: "500+", label: "Propriétés gérées" },
     { value: "95%", label: "Taux de satisfaction" },
