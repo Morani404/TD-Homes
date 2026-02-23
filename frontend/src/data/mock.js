@@ -28,7 +28,7 @@ export const servicesData = [
     id: 2,
     title: "Conciergeries",
     icon: "Hotel",
-    image: "/conciergerie-accueil.png",
+    image: "./conciergerie-accueil.png",
     description: "Développez votre portefeuille et augmentez votre rentabilité",
     features: [
       "Distribution multi-canal de votre catalogue",
