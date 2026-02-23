@@ -48,7 +48,7 @@ const Header = () => {
               <img 
                 src="./td-homes-logo-new.png" 
                 alt="TD Homes - Gérer & Valoriser" 
-                className="h-24 w-auto object-contain"
+                className="h-32 w-auto object-contain"
               />
             </button>
           </div>
