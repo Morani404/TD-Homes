@@ -29,6 +29,10 @@ jobs:
       - name: Install
         working-directory:  ./frontend
         run: npm install --legacy-peer-deps
+        
+      - name: Fix AJV
+        working-directory: ./frontend
+        run: npm install ajv@^8.12.0 ajv-keywords@^5.1.0 --legacy-peer-deps
 
       - name: Build
         working-directory:  ./frontend
