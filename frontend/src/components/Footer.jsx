@@ -123,21 +123,21 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Informations Légales</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-[#F0EAD6] hover:text-white transition-colors text-sm">
+                <a href="/mentions-legales" className="text-[#F0EAD6] hover:text-white transition-colors text-sm">
                   Mentions légales
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#F0EAD6] hover:text-white transition-colors text-sm">
-                  Politique de confidentialité
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#F0EAD6] hover:text-white transition-colors text-sm">
-                  CGV
-                </a>
-              </li>
-            </ul>
+      </a>
+    </li>
+    <li>
+      <a href="/politique-confidentialite" className="text-[#F0EAD6] hover:text-white transition-colors text-sm">
+        Politique de confidentialité
+      </a>
+    </li>
+    <li>
+      <a href="/cgv" className="text-[#F0EAD6] hover:text-white transition-colors text-sm">
+        CGV
+      </a>
+    </li>
+  </ul>
           </div>
         </div>
 
