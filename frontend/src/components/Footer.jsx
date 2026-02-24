@@ -124,16 +124,14 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="/legal#mentions-legales">Mentions légales</a>
-    </li>
-    <li>
-      <a href="/legal#confidentialite">Politique de confidentialité</a>
-    </li>
-    <li>
-      <a href="/legal#cgv">CGV</a>
-        CGV
-      </a>
-    </li>
-  </ul>
+              </li>
+              <li>
+                <a href="/legal#confidentialite">Politique de confidentialité</a>
+              </li>
+              <li>
+                <a href="/legal#cgv">CGV</a>
+              </li>
+            </ul>
           </div>
         </div>
 
