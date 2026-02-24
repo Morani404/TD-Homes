@@ -4,9 +4,10 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { contactInfo } from '../data/mock';
+import { toast } from "sonner";
 
 const Contact = () => {
-import { toast } from "sonner";
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
