@@ -55,8 +55,7 @@ export default function Legal() {
           Conditions Générales de Vente
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          Les prestations TD Homes font l’objet d’un devis personnalisé.
-          Toute validation de devis vaut acceptation des présentes conditions.
+          Les prestations TD Homes font l’objet d’un devis personnalisé. Toute prestation démarre après validation du devis et, le cas échéant, signature d’un contrat précisant les conditions de la mission.
         </p>
       </section>
     </div>
