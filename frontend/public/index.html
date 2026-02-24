@@ -33,6 +33,18 @@
         Learn how to configure a non-root public URL by running `npm run build`.
         -->
         <title>TD Homes — Gérer & Valoriser</title>
+        <script type="text/javascript">
+          (function (l) {
+            if (l.search && l.search.startsWith("?/")) {
+              var path = l.search.slice(2); // remove "?/"
+              var parts = path.split("&");
+              var newPath = "/" + parts[0];
+              var rest = parts.slice(1).join("&");
+              var newSearch = rest ? "?" + rest : "";
+      window.history.replaceState(null, null, newPath + newSearch + l.hash);
+    }
+  })(window.location);
+</script>
         <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
         
         <!--
