@@ -3,11 +3,10 @@ import { Mail, Phone, Send } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
-import { useToast } from '../hooks/use-toast';
 import { contactInfo } from '../data/mock';
 
 const Contact = () => {
-  const { toast } = useToast();
+  import { toast } from "sonner";
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -38,8 +37,7 @@ const Contact = () => {
 
     if (!res.ok) throw new Error("Formspree error");
 
-    toast({
-      title: "Message envoyé !",
+    toast.success("Message envoyé !", {
       description: "Nous vous répondrons dans les plus brefs délais.",
     });
 
@@ -51,10 +49,8 @@ const Contact = () => {
       message: "",
     });
   } catch (err) {
-    toast({
-      title: "Erreur",
+    toast.error("Erreur", {
       description: "Le message n’a pas pu être envoyé. Réessayez plus tard.",
-      variant: "destructive",
     });
   }
 };
