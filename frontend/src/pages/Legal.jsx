@@ -22,21 +22,16 @@ export default function Legal() {
       </h1>
 
       <section id="mentions-legales" className="mb-16 scroll-mt-24">
-        <h2 className="text-2xl font-semibold mb-4">
-          Mentions légales
-        </h2>
-        <p className="text-gray-700 leading-relaxed">
-          TD Homes — Micro-entreprise
-          <br />
-          SIREN : 999161292
-          <br />
-          Siège : 27 rue du parc, 01550 Collonges, France
-          <br />
-          Email : contact@td-homes.com
-          <br />
-          Hébergement : GitHub Pages
-        </p>
-      </section>
+  <h2 className="text-2xl font-semibold mb-4">Mentions légales</h2>
+
+  <div className="text-gray-700 leading-relaxed space-y-2">
+    <p><strong>TD Homes</strong> — Micro-entreprise</p>
+    <p><strong>SIREN :</strong> 999161292</p>
+    <p><strong>Siège :</strong> 27 rue du parc, 01550 Collonges, France</p>
+    <p><strong>Email :</strong> contact@td-homes.com</p>
+    <p><strong>Hébergement :</strong> GitHub Pages</p>
+  </div>
+</section>
 
       <section id="politique-confidentialite" className="mb-16 scroll-mt-24">
         <h2 className="text-2xl font-semibold mb-4">
