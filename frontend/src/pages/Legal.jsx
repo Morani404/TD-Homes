@@ -16,7 +16,7 @@ export default function Legal() {
   }, []);
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-16">
+    <div className="max-w-5xl mx-auto px-6 py-16 pt-32">
       <h1 className="text-3xl font-semibold mb-10">
         Informations légales
       </h1>
