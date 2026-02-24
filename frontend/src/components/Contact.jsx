@@ -23,26 +23,41 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    
-    // Mock form submission
-    console.log('Form submitted:', formData);
-    
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch("https://formspree.io/f/mlgwaead", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (!res.ok) throw new Error("Formspree error");
+
     toast({
       title: "Message envoyé !",
       description: "Nous vous répondrons dans les plus brefs délais.",
     });
 
-    // Reset form
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      company: '',
-      message: ''
+      name: "",
+      email: "",
+      phone: "",
+      company: "",
+      message: "",
     });
-  };
+  } catch (err) {
+    toast({
+      title: "Erreur",
+      description: "Le message n’a pas pu être envoyé. Réessayez plus tard.",
+      variant: "destructive",
+    });
+  }
+};
 
   return (
     <section id="contact" className="py-24 bg-gradient-to-b from-white to-[#F0EAD6]/30">
