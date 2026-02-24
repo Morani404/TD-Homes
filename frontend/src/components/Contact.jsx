@@ -27,7 +27,7 @@ const Contact = () => {
   e.preventDefault();
 
   try {
-    const res = await fetch("https://formspree.io/f/mlgwaead", {
+    const res = await fetch("https://formspree.io/f/xojnyqbw", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
